@@ -4,7 +4,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 This is a Go project called `fontgen`.
+
 See @project.md for details.
+
+See @plan.md for what to do next.
 
 ## Development Commands
 
@@ -48,6 +51,9 @@ go get -u ./...
 - Use `go mod tidy` after adding new dependencies
 - Run `go fmt` before committing to maintain consistent formatting
 - Use `go test` to run the test suite
+
+Look in plan.md for the next task underneath the ## To-do heading.
+As tasks are done, mark the checkbox with an `X` then move the item to the bottom of the file (underneath the ## Done heading).
 
 ## Notes
 - Standard Go toolchain commands apply
